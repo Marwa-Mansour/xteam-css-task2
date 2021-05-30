@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f1f2f6;
+}
+
+.left{
+    width: 48%;
+    height: 600px;
+    position: relative;
+    /* margin: auto;
+    margin-top: 150px;
+    margin-left: 50px;
+    padding: 0px;
+    
+    padding-left: 50px; */
+    float: left;
+    /* border: black solid 1px; */
+}
+
+.right{
+    width: 48%;
+    height: 600px;
+    position: relative;
+    /* margin: auto;
+    margin-top: 200px;
+    margin-right: 50px; 
+    padding: 0px;*/
+    /* border: black solid 1px; */
+    float: right;
+}
+
+.left img{
+    width: 40%;
+   position: absolute;
+   top: 150px;
+   left: 250px;
+}
+
+.left p{
+    font-size: 26px;
+    line-height: 28px;
+    width: auto;
+    text-align: left;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    color: #1c1e21;
+    display: inline-block;
+    letter-spacing: normal;
+    
+    position: absolute;
+   top: 250px;
+   left: 282px;
+    
+}
+
+form{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    border: white solid 1px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 2px #b5b6b6;
+    
+    background-color: white;
+    width: 400px;
+}
+
+.inp-form{
+    display: block;
+    width: 350px;
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 18px;
+    height: 35px;
+    border: #cfd0d3 solid 1px ;
+    border-radius: 5px;
+    
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 16px;
+    padding-left: 12px;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-size: 16px;
+    padding-left: 12px;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-size: 16px;
+    padding-left: 12px;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-size: 16px;
+    padding-left: 12px;
+  }
+
+  .inp-form:hover{
+    border: #1878f3 solid 1px ;
+    box-shadow: .5px .5px 5px .5px #1878f3;
+  }
+
+.log{
+    display: block;
+    width: 362px;
+    margin: auto;
+    padding: 5px;
+    height: 45px;
+    border: #1878f3 solid 1px;
+    border-radius: 5px;
+    background-color: #1878f3;
+}
+
+.log:hover{
+    background-color: #1666cf;
+    cursor: pointer;
+}
+
+.create{
+    display: block;
+    width: 200px;
+    margin: auto;
+    padding: 5px;
+    height: 45px;
+    border: #42b72a solid 1px;
+    border-radius: 5px;
+    background-color: #42b72a;
+}
+.create:hover{
+    background-color: #38a024;
+    cursor: pointer;
+}
+
+.foot {
+    position: absolute;
+    top: 480px;
+    left: 100px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+span{
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    color: white;
+}
